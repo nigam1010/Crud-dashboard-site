@@ -1,12 +1,107 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 📊 Uplyft - User Insights Dashboard
 
-Currently, two official plugins are available:
+A professional React.js dashboard built for the Uplyft.ai SDE Internship Assignment.  
+Includes authentication, KPI tracking, chart visualization, product CRUD, and dark mode.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🔧 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React.js + Vite**
+- **Redux Toolkit**
+- **React Router DOM**
+- **DummyJSON API** (https://dummyjson.com)
+- **Recharts** for analytics graph
+- **html2canvas** for chart export
+- **CSS Modules** for styling
+
+---
+
+## 🚀 Features
+
+### ✅ Authentication
+- Login page with dummyjson credentials
+- Route protection (public/private)
+
+### ✅ Dashboard
+- KPI cards: Total Users, Monthly Growth, Active Users
+- Monthly active users chart with Recharts
+- Export chart as PNG
+- Dark mode toggle (🌗)
+- Hover effects on cards and buttons
+
+### ✅ Product Management
+- CRUD operations (Add, Edit, Delete products)
+- Redux-powered state management
+- Real API integration using `dummyjson.com/products`
+- Smooth UI with responsive design
+
+---
+
+## 🧪 Dummy Login
+
+You can use the following credentials to log in:
+
+```
+Username: kminchelle  
+Password: 0lelplR
+```
+
+> This uses the official dummy login API from DummyJSON.
+
+---
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/yourusername/uplyft-dashboard.git
+cd uplyft-dashboard
+npm install
+npm run dev
+```
+
+> App will run at `http://localhost:5173`
+
+---
+
+## 🌐 Live Demo
+
+Deployed via Vercel  
+🔗 [https://crud-dashboard-site-git-main-karinigams-projects.vercel.app](https://crud-dashboard-site-git-main-karinigams-projects.vercel.app)
+
+---
+
+## 📁 Project Structure
+
+```
+src/
+├── pages/
+│   ├── LoginPage.jsx
+│   ├── Dashboard.jsx
+│   └── Products.jsx
+├── redux/
+│   ├── store.js
+│   └── productSlice.js
+├── App.jsx
+└── main.jsx
+```
+
+---
+
+## 📸 Screenshots
+
+*(Add screenshots in a /screenshots folder if needed)*
+
+---
+
+## 🙌 Author
+
+**Yogaraja Adithya Somasundar**  
+Data Science Student | React.js | ML | IoT
+
+---
+
+## 📃 License
+
+MIT – Free to use with attribution.
