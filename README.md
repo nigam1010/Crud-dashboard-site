@@ -97,8 +97,8 @@ src/
 
 ## 🙌 Author
 
-**Yogaraja Adithya Somasundar**  
-Data Science Student | React.js | ML | IoT
+**Karinigam**  
+
 
 ---
 
