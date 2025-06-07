@@ -1,0 +1,85 @@
+/* Container */
+.product-container {
+  max-width: 700px;
+  margin: 60px auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 10px #ccc;
+  border: 1px solid #eee;
+}
+
+/* Header */
+.product-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+/* Add Section */
+.product-add {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.product-input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+/* List */
+.product-list {
+  list-style: none;
+  padding: 0;
+}
+
+.product-item {
+  padding: 12px;
+  margin-bottom: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Buttons (hoverable now) */
+.btn {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  opacity: 0.85;
+}
+
+.btn-back {
+  background-color: #555;
+}
+
+.btn-add {
+  background-color: #4CAF50;
+}
+
+.btn-edit {
+  background-color: #3498db;
+  margin-right: 6px;
+}
+
+.btn-delete {
+  background-color: #e74c3c;
+}
+
+.btn-save {
+  background-color: #2ecc71;
+}
