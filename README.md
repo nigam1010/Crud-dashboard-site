@@ -1,5 +1,5 @@
 
-# 📊 Uplyft - User Insights Dashboard
+# 📊 Affworld - User Insights Dashboard
 
 A professional React.js dashboard built for the Uplyft.ai SDE Internship Assignment.  
 Includes authentication, KPI tracking, chart visualization, product CRUD, and dark mode.
