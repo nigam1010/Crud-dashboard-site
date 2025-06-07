@@ -6,6 +6,13 @@ Includes authentication, KPI tracking, chart visualization, product CRUD, and da
 
 ---
 
+## 🌐 Live Demo
+
+Deployed via Vercel  
+🔗 [https://crud-dashboard-site-git-main-karinigams-projects.vercel.app](https://crud-dashboard-site-git-main-karinigams-projects.vercel.app)
+
+---
+
 ## 🔧 Tech Stack
 
 - **React.js + Vite**
@@ -62,13 +69,6 @@ npm run dev
 ```
 
 > App will run at `http://localhost:5173`
-
----
-
-## 🌐 Live Demo
-
-Deployed via Vercel  
-🔗 [https://crud-dashboard-site-git-main-karinigams-projects.vercel.app](https://crud-dashboard-site-git-main-karinigams-projects.vercel.app)
 
 ---
 
