@@ -41,7 +41,7 @@ const Dashboard = () => {
   return (
     <div className={`dashboard-wrapper ${darkMode ? 'dark' : ''}`}>
       <header className="dashboard-header">
-        <h1 className="dashboard-title">📈 Uplyft - User Insights Dashboard</h1>
+        <h1 className="dashboard-title">📈 AffWorld - User Insights Dashboard</h1>
         <div className="dashboard-actions">
           <button className="btn btn-secondary" onClick={() => navigate('/products')}>Manage Products</button>
           <button className="btn btn-danger" onClick={handleLogout}>Logout</button>
