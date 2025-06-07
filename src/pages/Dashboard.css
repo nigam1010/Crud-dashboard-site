@@ -129,3 +129,23 @@ body {
   font-size: 18px;
   font-weight: 500;
 }
+.kpi-card {
+  background-color: var(--card-bg);
+  flex: 1;
+  padding: 16px 24px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  text-align: center;
+  transition: all 0.3s ease;
+  transform: scale(1);
+}
+
+.kpi-card:hover {
+  box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+  transform: scale(1.03);
+  cursor: pointer;
+}
+.kpi-card:hover p {
+  color: #0056b3; /* darker blue */
+}
+
